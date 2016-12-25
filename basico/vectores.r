@@ -9,3 +9,7 @@ mi_vector <- c(12, 45, 23, 90, 14) # no se especifica el tipo, pero todos deben 
 
 
 mi_vector_explicito <- vector(mode = "logical", length = 10) # modes = "logical", "integer", "numeric"|"double", "complex", "characteer", "raw"
+
+# Cambio de Longitud de Vector
+
+length(mi_vector) <- 10
