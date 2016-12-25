@@ -38,3 +38,8 @@ x[!is.na(x)]
 ex_data_set <- data.frame(col1 = c(1,2,3,4), col2 = c("uno", NA, NA, "cuatro"))
 filas_completas <- complete.cases(ex_data_set)
 ex_data_set[filas_completas, ]
+
+
+# Se puede filtrar por referencia al nombre de la columna
+ex_data_set$col1 > 2 # Devuelve un array con booleanos como resultados de 
+

@@ -9,3 +9,6 @@ names(fib) <- c("Fibonnacci 1", "Fibonnacci 2", "Fibonnacci 3", "Fibonnacci 4")
 resultados <- matrix(1:9, nrow = , mcol = 2)
 dimnames(resultados) <- list(c("Fila 1", "Fila 2"), c("Columna 1", "Columna 2"))
 
+
+# Nombres en listas
+mi_equpipo <- list(programador="Fernando", analista="Iván", designer="Julián")
